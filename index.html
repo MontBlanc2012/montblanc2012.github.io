@@ -975,7 +975,7 @@
 
 <span style="color:purple">R</span>     <span style="color:blue">=</span> <span class="constant" style="color:purple">1.0</span>    
 theta <span style="color:blue">=</span> <span class="constant" style="color:purple">60.0</span>
-r_p   <span style="color:blue">=</span> <span class="constant" style="color:purple">0.9</span>
+r_p   <span style="color:blue">=</span> <span class="constant" style="color:purple">0.90</span>
 mu    <span style="color:blue">=</span> <span class="constant" style="color:purple">1.0</span>
 
 
@@ -1062,7 +1062,28 @@ mu    <span style="color:blue">=</span> <span class="constant" style="color:purp
     <span style="color:blue">print</span> <span style="color:maroon">&quot;</span><span style="color:maroon">-------------------------------------------</span><span style="color:maroon">&quot;</span>
     <span style="color:blue">print</span> <span style="color:maroon">&quot;</span><span style="color:maroon">No solution</span><span style="color:maroon">&quot;</span>
     <span style="color:blue">print</span>
-    <span style="color:blue">print</span></code></pre><span data-line=""></span></div>
+    <span style="color:blue">print</span></code></pre>
+<p class="p noindent para-continued" data-line="814"><span data-line="814"></span>And the output from this particular problem is:
+</p>
+<pre class="para-block pre-fenced pre-fenced3" data-line="816" data-line-first="817" style="display:block"><code data-line="817">Elliptical solution of the first kind:     
+-------------------------------------------
+No solution
+
+
+Elliptical solution of the second kind:     
+-------------------------------------------
+Semi-major axis           0.954020784915
+Eccentricity              0.0566243270259
+Time-of-flight            1.08533757852
+
+
+Hyperbolic solution:     
+-------------------------------------------
+Semi-major axis           -0.463111694005
+Eccentricity              2.94337567297
+Time-of-flight            0.483575527262</code></pre>
+<p class="p noindent para-continued" data-line="836"><span data-line="836"></span>Thus showing that for the chosen periapsis radius, <span data-line="836"></span><svg  class="math-inline math-render-svg math" style="vertical-align:-0.3400em;height:1.0375em;width:4.2528em" viewBox='88.468 55.001 40.503 9.881' ><desc>$r_p = 0.90$</desc><g id='math-56f485'><use x='88.667' xlink:href='#g2-114' y='61.836'/><use x='93.162' xlink:href='#g3-112' y='63.33'/><use x='100.535' xlink:href='#g5-61' y='61.836'/><use x='111.051' xlink:href='#g5-48' y='61.836'/><use x='116.032' xlink:href='#g2-58' y='61.836'/><use x='118.799' xlink:href='#g5-57' y='61.836'/><use x='123.781' xlink:href='#g5-48' y='61.836'/></g></svg><span data-line="836"></span>, there are two Keplerian arcs that pass through the points <span data-line="836"></span><svg  class="math-inline math-render-svg math" style="vertical-align:-0.1854em;height:0.9132em;width:1.1838em" viewBox='34.67 54.832 11.274 8.697' ><desc>$P_1$</desc><g id='math-20868f'><use x='34.869' xlink:href='#g0-80' y='61.836'/><use x='41.265' xlink:href='#g3-49' y='63.33'/></g></svg><span data-line="836"></span> and <span data-line="836"></span><svg  class="math-inline math-render-svg math" style="vertical-align:-0.1854em;height:0.9132em;width:1.1838em" viewBox='88.468 54.832 11.274 8.697' ><desc>$P_2$</desc><g id='math-2d70da'><use x='88.667' xlink:href='#g0-80' y='61.836'/><use x='95.064' xlink:href='#g3-50' y='63.33'/></g></svg><span data-line="836"></span> each located one unit from the origin: one is an ellipse; and the other is a hyperbola. <span data-line="836"></span> <span data-line="836"></span> 
+</p><span data-line=""></span></div>
 <svg id='math-svg-paths' style='display:none' version='1.1' viewBox='0 0 0 0' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
 <defs>
 <path d='M3.716 -3.766C3.537 -4.134 3.248 -4.403 2.8 -4.403C1.634 -4.403 0.399 -2.939 0.399 -1.484C0.399 -0.548 0.946 0.11 1.724 0.11C1.923 0.11 2.421 0.07 3.019 -0.638C3.098 -0.219 3.447 0.11 3.925 0.11C4.274 0.11 4.503 -0.12 4.663 -0.438C4.832 -0.797 4.961 -1.405 4.961 -1.425C4.961 -1.524 4.872 -1.524 4.842 -1.524C4.742 -1.524 4.732 -1.484 4.702 -1.345C4.533 -0.697 4.354 -0.11 3.945 -0.11C3.676 -0.11 3.646 -0.369 3.646 -0.568C3.646 -0.787 3.666 -0.867 3.776 -1.305C3.885 -1.724 3.905 -1.823 3.995 -2.202L4.354 -3.597C4.423 -3.875 4.423 -3.895 4.423 -3.935C4.423 -4.105 4.304 -4.204 4.134 -4.204C3.895 -4.204 3.746 -3.985 3.716 -3.766ZM3.068 -1.186C3.019 -1.006 3.019 -0.986 2.869 -0.817C2.431 -0.269 2.022 -0.11 1.743 -0.11C1.245 -0.11 1.106 -0.658 1.106 -1.046C1.106 -1.544 1.425 -2.77 1.654 -3.228C1.963 -3.816 2.411 -4.184 2.809 -4.184C3.457 -4.184 3.597 -3.367 3.597 -3.308S3.577 -3.188 3.567 -3.138L3.068 -1.186Z' id='g0-97'/>
