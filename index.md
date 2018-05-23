@@ -8,6 +8,8 @@ Here is a list of articles on orbital mechanics.  The primary purpose of these n
 
 Here is a list of posts placed on the [Orbiter Forum](https://www.orbiter-forum.com) relating to the calculation of a perturbed gravitational field
 
+* [Orbiter Forum post of  7 May 2018](Orbiter_Paper_4.html)
+
 * [Orbiter Forum post of 10 May 2018](Orbiter_Paper_3.html)
 
 
