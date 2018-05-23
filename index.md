@@ -10,6 +10,8 @@ Here is a list of posts placed on the [Orbiter Forum](https://www.orbiter-forum.
 
 * [Orbiter Forum post of  7 May 2018](Orbiter_Paper_4.html)
 
+* [Orbiter Forum post of  8 May 2018](Orbiter_Paper_5.html)
+
 * [Orbiter Forum post of 10 May 2018](Orbiter_Paper_3.html)
 
 
